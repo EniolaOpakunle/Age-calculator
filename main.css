@@ -1,8 +1,9 @@
 body{
- /* font-family: [Poppins](https://fonts.google.com/specimen/Poppins) */
+ font-family: Poppins;
  background-color: hsl(0, 0%, 94%);
  padding: 50px 0 0 0;
  height: 100% !important;
+ /* display: grid; */
 
 }
 .calculator{
