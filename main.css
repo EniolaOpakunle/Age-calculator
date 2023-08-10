@@ -1,0 +1,108 @@
+body{
+ /* font-family: [Poppins](https://fonts.google.com/specimen/Poppins) */
+ background-color: hsl(0, 0%, 94%);
+ padding: 50px 0 0 0;
+ height: 100% !important;
+
+}
+.calculator{
+    background-color: hsl(0, 0%, 100%) !important;
+    border-radius: 20px 20px 100px 20px;
+    height: 80% !important;
+    padding: 40px 40px;
+}
+.value{
+    color:hsl(259, 100%, 65%);
+    font-size: 70px;
+    margin: 0 !important;
+}
+h4{
+    font-size: 14px;
+    font-weight: 700;
+}
+img{
+    background-color: hsl(259, 100%, 65%);
+    width: 50px !important;
+}
+input{
+    height: 50px;
+    width: 120px;
+    font-size: 32px; 
+    color: black;
+    border: thin solid hsl(0, 0%, 84%);
+    font-weight: 700;
+}
+.valueText{
+    font-size: 70px;
+    font-weight: 800;
+    margin: 0 !important;
+}
+.block{
+    width: 80%;
+    height: 2px;
+    background-color: hsl(0, 0%, 94%);
+}
+.attribution{
+    margin-top: 20px ;
+    font-size: 11px;
+}
+.attribution a{
+    color:hsl(228, 45%, 44%);
+
+}
+@media (max-width: 375px){
+    body{
+        /* font-family: [Poppins](https://fonts.google.com/specimen/Poppins) */
+        background-color: hsl(0, 0%, 94%);
+        padding: 50px 0 0 0;
+        height: 100% !important;
+
+    }
+    .calculator{
+        width: 90% !important;
+        background-color: hsl(0, 0%, 100%) !important;
+        border-radius: 20px 20px 100px 20px;
+        height: 80% !important;
+        padding: 40px 20px !important;
+    }
+    .value{
+        color:hsl(259, 100%, 65%);
+        font-size: 55px;
+        margin: 0 !important;
+    }
+    h4{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    img{
+        background-color: hsl(259, 100%, 65%);
+        width: 50px !important;
+        margin-left: -55%;
+    }
+    input{
+        height: 50px;
+        width: 85px;
+        font-size: 32px; 
+        color: black;
+        border: thin solid hsl(0, 0%, 84%);
+        font-weight: 700;
+    }
+    .valueText{
+        font-size: 55px;
+        font-weight: 800;
+        margin: 0 !important;
+    }
+    .block{
+        width: 95%;
+        height: 2px;
+        background-color: hsl(0, 0%, 94%);
+    }
+    .attribution{
+        margin-top: 20px ;
+        font-size: 11px;
+    }
+    .attribution a{
+        color:hsl(228, 45%, 44%);
+
+    }
+}
